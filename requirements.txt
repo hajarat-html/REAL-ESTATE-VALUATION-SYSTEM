@@ -2,11 +2,12 @@ streamlit
 pandas
 numpy
 scikit-learn
-plotlyD88
+plotly
 folium
 streamlit-option-menu
 streamlit-folium
 streamlit-extras
 joblib
+
 
     
