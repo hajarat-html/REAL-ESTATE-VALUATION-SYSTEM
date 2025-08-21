@@ -1,0 +1,12 @@
+streamlit
+pandas
+numpy
+scikit-learn
+plotlyD88
+folium
+streamlit-option-menu
+streamlit-folium
+streamlit-extras
+joblib
+
+    
