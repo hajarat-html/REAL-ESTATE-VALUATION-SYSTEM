@@ -625,13 +625,6 @@ elif selected == "Dataset":
         st.dataframe(data.head())
         st.markdown("---")
 
-        st.subheader("Data Information")
-        st.write("Detailed information about columns, non-null values, and data types:")
-        buffer = io.StringIO()
-        data.info(buf=buffer)
-        st.text(buffer.getvalue())
-        st.markdown("---")
-
         st.subheader("Descriptive Statistics")
         st.write("Summary statistics for numerical columns:")
         st.dataframe(data.describe())
@@ -1026,4 +1019,3 @@ st.markdown("""
         <p>&copy; 2025 Real Estate Price Evaluation System. All rights reserved.</p>
     </div>
     """, unsafe_allow_html=True)
-
